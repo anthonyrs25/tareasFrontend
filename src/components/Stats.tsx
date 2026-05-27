@@ -1,9 +1,5 @@
 import { Statistic, Card, Progress } from 'antd'
-import {
-  CheckCircleOutlined,
-  ClockCircleOutlined,
-  UnorderedListOutlined,
-} from '@ant-design/icons'
+import { CheckCircleOutlined, ClockCircleOutlined, UnorderedListOutlined } from '@ant-design/icons'
 
 interface Task {
   id: number
