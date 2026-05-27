@@ -1,11 +1,7 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route, useNavigate, useLocation } from 'react-router-dom'
 import { Layout, Menu, Badge } from 'antd'
-import {
-  HomeOutlined,
-  CheckSquareOutlined,
-  BarChartOutlined,
-} from '@ant-design/icons'
+import { HomeOutlined, CheckSquareOutlined, BarChartOutlined } from '@ant-design/icons'
 import Home from './components/Home'
 import TaskList from './components/TaskList'
 import Stats from './components/Stats'
